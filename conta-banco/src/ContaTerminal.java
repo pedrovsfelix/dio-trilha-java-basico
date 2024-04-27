@@ -6,7 +6,7 @@ public class ContaTerminal {
         // conhecer e importar a classe scanner
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
         // Exibir mensagems para o usuário
-        System.out.println("Digite o seu Nome e Sobrenome!");
+        System.out.println("Digite o seu Nome!");
         String NomeCliente = scanner.next();
 
         System.out.println("Por favor, digite o número da Agência!");
